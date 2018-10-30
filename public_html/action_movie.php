@@ -6,16 +6,7 @@
 <title>Action Movie</title>
 </head>
 <body>
-<nav>
-<ul>
-    <li><a href="index.html">About Page</a></li>
-    <li><a href="space_ghosts.html">Space Ghosts</a></li>
-    <li><a href="comedy_movie.html">Comedy Movie</a></li>
-    <li><a href="chef_dog.html">Chef Dog</a></li>
-    <li><a href="action_movie.html">Action Movie</a></li>
-    <li><a href="love_birds.html">Love Birds</a></li>
-</ul>
-</nav>
+<?php include 'navigation.php'; ?>
 <h1>Rudo</h1>
 <img src="action_movie.png" alt="Rudo" />
 <p>The Princess of Zimbabwe (Laura Harrier) has been kidnapped by the treacherous Coyote Gang in attempt for exoneration of their gangleader Two Eyes (Michael B. Jordan). With their strong use of technology,</p><p> the Coyotes send threatening messages broadcasted all across Zimbabwe to warn the Royal Council. The only option to get back their beloved Princess is to call for the help</p><p>of most feared man in Zimbabwe, Rudo (Matt Damon). Will the Zimbabwean country get back their Princess, and at what cost?</p>
@@ -84,8 +75,6 @@
 <p><a href="action_movie.html">Action Movie</a></p>
 <p><a href="romance_movie.html">Love Birds</a></p>
 </nav>
-<footer>
-&copy; Simpson College 2018 | Contact Us (515) 247-8992
-</footer>
+<?php include 'footer.php'; ?>
 </body>
 </html>
